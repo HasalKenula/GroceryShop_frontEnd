@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-
+import logo from "../assets/logo.png";
 
 function Registration(){
 
@@ -41,6 +41,12 @@ function Registration(){
 
     return(
         <div className="p-10 bg-[url('./assets/pattern.png')] h-screen bg-cover bg-center bg-fixed">
+
+            <div className="flex items-center">
+                <img src={logo} alt="Logo" className="h-10 w-10 mr-2" />
+                <span className="text-white text-xl font-bold">Silvester Grocery Store</span>
+            </div>
+
           <div className="max-w-[600px] p-8 shadow-xl rounded-lg mx-auto">
             <div className="text-center mb-5">
                 <h1 className="text-2xl font-semibold">Register</h1>

@@ -25,7 +25,7 @@ export function AuthProvider({children}:AuthProviderPropsType){
     function logout(){
         setIsAuthenticated(false);
         setJwtToken(null);
-       localStorage.removeItem("jwtToken");
+        localStorage.removeItem("jwtToken");
     }
 
     useEffect(()=>{
