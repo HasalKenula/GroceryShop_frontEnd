@@ -10,7 +10,7 @@ function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="bg-[url('./assets/pattern.png')] h-[...] bg-cover bg-center bg-fixed">
+    <div className="bg-[url('./assets/pattern.png')] min-h-screen bg-cover bg-center bg-fixed">
       <nav className="bg-gray-800">
         <div className="container mx-auto px-4 py-3 flex justify-between items-center">
           {/* Logo */}

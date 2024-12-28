@@ -103,7 +103,7 @@ function Categories() {
 
 
 
-      <div className="bg-[url('./assets/pattern.png')] h-screen bg-cover bg-center bg-fixed">
+      <div className="bg-[url('./assets/pattern.png')] min-h-screen bg-cover bg-center bg-fixed">
 
 
 

@@ -74,7 +74,7 @@ function Profile() {
           </div>
         </div>
       </nav>
-      <div className="bg-[url('./assets/pattern.png')] h-screen bg-cover bg-center bg-fixed">
+      <div className="bg-[url('./assets/pattern.png')] min-h-screen bg-cover bg-center bg-fixed">
         <h1 className="flex text-3xl font-semibold mb-5 text-slate-800 item-center justify-center pb-8 pt-4">Profile</h1>
         <div className="max-w-[700px] mx-auto p-8 shadow-xl rounded-lg">
           <div className="flex items-center justify-center space-x-10">

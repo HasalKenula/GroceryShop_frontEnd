@@ -175,7 +175,7 @@ function Products() {
             </nav>
             
 
-            <div className="bg-[url('./assets/pattern.png')] h-[...]  bg-cover bg-center bg-fixed">
+            <div className="bg-[url('./assets/pattern.png')] min-h-screen  bg-cover bg-center bg-fixed">
                 <h1 className="text-3xl font-semibold mb-5 text-slate-800">Products</h1>
 
                 <table className="table-auto- w-full">

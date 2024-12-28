@@ -127,7 +127,7 @@ function CreateOrder() {
       </nav>
 
 
-      <div className="flex bg-[url('./assets/pattern.png')] h-[...] bg-cover bg-center bg-fixed">
+      <div className="flex bg-[url('./assets/pattern.png')] min-h-screen bg-cover bg-center bg-fixed">
         <div className="p-2 w-[300px] border-slate-100">
           <div className="text-xl text-slate-800 font-semibold">
             Products
