@@ -31,8 +31,7 @@ function CreateOrder() {
   const [totalPrice, setTotalPrice] = useState<number>(0);
 
   function addProductToOrder(product: ProductType) {
-    // orderedProducts.push(product);
-    // console.log(orderedProducts);
+
     const newArray = [...orderedProducts, product]
     setOrderedProduct(newArray);
   }

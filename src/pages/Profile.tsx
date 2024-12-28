@@ -11,7 +11,7 @@ import whatsapp from "../assets/whatsapp.png";
 import { useState } from "react";
 function Profile() {
 
-  const { isAuthenticated, jwtToken, logout } = useAuth();
+  const { isAuthenticated, logout } = useAuth();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <div>

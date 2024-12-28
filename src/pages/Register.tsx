@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import logo from "../assets/logo.png";
 
 function Registration(){
@@ -79,7 +79,11 @@ function Registration(){
                     <button type="submit" className="bg-gray-800 text-white px-4 py-2 rounded-lg w-full hover:bg-gray-950">Register</button>
                 </div>
 
-
+                <div className="mb-3">
+                                    
+                    <Link to="/login"  className="w-full rounded-lg px-4 py-2 bg-gray-800 text-white hover:bg-gray-950 ">Back</Link>
+                
+                </div>          
             </form>
 
 

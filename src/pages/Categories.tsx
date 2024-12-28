@@ -103,20 +103,19 @@ function Categories() {
 
 
 
-      {/* container mx-auto pt-5 pb-5  */}
       <div className="bg-[url('./assets/pattern.png')] h-screen bg-cover bg-center bg-fixed">
 
 
 
 
         <h1 className="text-3xl font-semibold mb-5 text-slate-800">Categories</h1>
-        {/* <button onClick={loadCategories}>Load Categories</button> */}
+        
         <ul className="m-5">
           {categories.map(category => (
             <li className="inline-block p-2 m-2 border border-slate-500 rounded-lg shadow-lg" key={category.id}>{category.name}</li>
           ))}
         </ul>
-        {/* mt-10 w-[650px] border border-slate-200 px-4 py-3 rounded-lg */}
+        
         <div className="mt-10 max-w-[650px] max-auto border border-slate-200 px-4 py-3 rounded-lg">
           <h2 className="text-xl font-medium mb-4">Add category</h2>
           <label className="text-sm text-slate-600 block mb-3">Enter category name</label>

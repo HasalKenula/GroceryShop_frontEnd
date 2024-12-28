@@ -173,7 +173,7 @@ function Products() {
                     </div>
                 </div>
             </nav>
-            {/* container mx-auto pt-5 pb-5  */}
+            
 
             <div className="bg-[url('./assets/pattern.png')] h-[...]  bg-cover bg-center bg-fixed">
                 <h1 className="text-3xl font-semibold mb-5 text-slate-800">Products</h1>
